@@ -1,0 +1,88 @@
+/*Importa as fontes "Krona One" e "Montserrat" da Google Fonts para serem utilizadas na página.*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/*Define variáveis CSS para cores e fontes que serão utilizadas em toda a página.*/
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #F6F6F6;
+  --cor-terciaria: #22D4FD;
+  --cor-hover: #272727;
+
+  --fonte-primaria: 'Krona One', sans-serif;
+  --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body, html {
+   max-width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*Reseta as margens e preenchimentos de todos os elementos para garantir uma base consistente.*/
+
+.cabecalho{
+    padding:1% 0% 1% 1%;
+    background: linear-gradient(to right, rgb(15, 208, 15), yellow, blue);
+  }
+
+  .cabecalho__menu{
+    display: flex;
+    gap: 80px;      /*separar com espaço*/
+    position: relative;
+  }
+
+  .cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:white;
+    text-decoration: none;
+    margin-left: 300px;
+  }
+
+  body {
+    margin: 0px;
+    padding:0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.links-container {
+    margin: 0px;
+    display: flex;
+    margin-left: 300px;
+    padding: 25px;
+    gap: 50%;
+}
+
+.exemp {
+    margin-left: 80px;
+}
+/*
+   
+    top: 50px;
+    left: 0px;
+    width: auto; 
+    height: auto;
+}*/
+
+.botao_proximo {
+  position: fixed;
+  /* margin-left: 1135px;*/
+  bottom: 13%; /* Fixa o botão na parte inferior da tela */
+  right: 0.10%; /* Ajusta a posição para 5% da largura da tela da margem direita */
+  font-size: 1.5rem;
+}
+
+.rodape {
+  color: black;
+  background: linear-gradient(to right, rgb(15, 208, 15), yellow, blue);
+  padding: 25px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position:relative;
+  top: 19.5%;
+  left: 0px;
+  right: 0px;
+}

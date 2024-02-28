@@ -1,0 +1,78 @@
+/*Importa as fontes "Krona One" e "Montserrat" da Google Fonts para serem utilizadas na página.*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/*Define variáveis CSS para cores e fontes que serão utilizadas em toda a página.*/
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #F6F6F6;
+  --cor-terciaria: #22D4FD;
+  --cor-hover: #272727;
+
+  --fonte-primaria: 'Krona One', sans-serif;
+  --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body, html {
+   max-width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cabecalho{
+    padding:1% 0% 1% 1%;
+    background: linear-gradient(to right, rgb(15, 208, 15), yellow, blue);
+ }
+
+  .cabecalho__menu{
+    display: flex;
+    gap: 80px;      /*separar com espaço*/
+    position: relative;
+  }
+
+  .cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:white;
+    text-decoration: none;
+    margin-left: 300px;
+  }
+
+.h1 {
+    margin-left: 100px;
+}
+
+.aula, .exercicio, .exemplo { 
+        margin-right: 10px; /* Ou qualquer valor desejado para o espaçamento horizontal */
+       
+}
+
+  .botao_anterior,
+.botao_proximo {
+    font-size: 1.5rem;
+    display: inline-block; /* Para garantir que os botões estejam na mesma linha */
+}
+
+.botao_anterior {
+    margin-right: 10px; /* Ou qualquer valor desejado para o espaçamento horizontal */
+}
+
+.botao_proximo {
+    margin-left: 900px; /* Ou qualquer valor desejado para o espaçamento horizontal */
+}
+
+.rodape {
+    color: black;
+    background: linear-gradient(to right, rgb(15, 208, 15), yellow, blue);
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 90px;
+    left: 0px;
+    width: auto; 
+    height: auto;
+}
